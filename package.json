@@ -1,0 +1,31 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "furqan",
+  "type": "commonjs",
+  "main": "index.js",
+  "homepage": "https://Muhammad-Furqan-siddiqui.github.io/backend/",
+  "scripts": {
+    
+    "dev": "nodemon backend/index.js",
+    "build":"npm install && npm install --prefix hackathon && npm run build --prefix hackathon ",
+   "start": "nodemon backend/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.5",
+    "nodemon": "^3.1.9"
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
+  }
+}
